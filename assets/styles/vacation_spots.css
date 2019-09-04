@@ -1,0 +1,105 @@
+.column {
+  display: inline-flex;
+}
+
+.one {
+  width: 33.2%;
+}
+
+.two {
+  width: 33.2%;
+  flex-wrap: wrap;
+}
+
+.three {
+  width: 33%;
+  flex-wrap: wrap;
+}
+
+.paris {
+  width: 100%;
+  height: 100vh;
+  background: url('../images/paris.jpg') no-repeat;
+  background-size: cover;
+}
+
+.hawaii {
+  width: 100%;
+  height: 50vh;
+  background: url('../images/hawaii.jpg') no-repeat;
+  background-size: cover;
+}
+
+.new-york {
+  width: 100%;
+  height: 49vh;
+  background: url('../images/new_york.jpg') no-repeat;
+  background-size: cover;
+  margin-bottom: 1%;
+}
+
+.rome {
+  width: 100%;
+  height: 49vh;
+  background: url('../images/rome.jpg') no-repeat;
+  background-size: cover;
+  margin-bottom: 1%;
+}
+
+.cancun {
+  width: 100%;
+  height: 50vh;
+  background: url('../images/cancun.jpg') no-repeat;
+  background-size: cover;
+}
+
+.header {
+  text-align: center;
+  font-size: 40px;
+  font-family: sans-serif;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  padding-right: 5px;
+}
+
+.background {
+  width: 50%;
+  background: black;
+  position: relative;
+  opacity: 0.7;
+
+}
+
+.paris-header {
+  top: 50%;
+  width: 50%;
+}
+
+.new-york-header {
+  top: 40%;
+  width: 70%;
+}
+
+.hawaii-header {
+  top: 40%;
+  width: 50%;
+}
+
+.rome-header {
+  width: 50%;
+}
+
+.cancun-header {
+  width: 60%;
+}
+
+.btn {
+  height: 50px;
+  width: 98%;
+  background: black;
+  border: 2% solid white;
+  font-size: 24px;
+  color: white;
+  margin: 1%;
+}
